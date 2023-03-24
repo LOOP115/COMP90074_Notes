@@ -122,3 +122,82 @@ A consulting firm’s scoping document is quite similar:
 <img src="img\1\4.png" alt="4" style="zoom:80%;" />
 
 <img src="img\1\5.png" alt="5" style="zoom:80%;" />
+
+
+
+### Proxy
+
+* Piece of software that captures traffic sent through it
+* We will use it to view and alter HTTP requests when performing attacks
+* Can make automation easier
+* Can hook into a browser very easily!
+
+#### Interception Proxies
+
+* A proxy that has the ability to stop a request from being sent out, awaiting the user to forward the request
+* Proxies require a root certificate to be installed within the client (your browser in this case)
+* Allows the proxy to decrypt the connection and re-encrypt it as required
+
+#### Burp Suite
+
+* Proxy software written by PortSwigger
+* An industry norm
+* Alternative software is OWASP ZAP (we will not be providing support for ZAP)
+
+
+
+### How do browsers work
+
+#### Browser
+
+* Short for Web Browsers
+* Runs on the client
+* Used to locate, retrieve, and display content
+* Webpages, images, videos, etc.
+* Uses HTML and CSS majorly for visuals
+* Uses JavaScript mainly for interactivity
+
+#### HTTP Cookies
+
+#### LocalStorage
+
+* Websites can store information within your browser for later
+* Can be used for managing state
+* No expiration
+* Accessible via JS
+* Persists after browser closes
+* Was an old method for enforcing bans on websites
+* Maximum storage space is 5MB
+
+#### DOM
+
+* Document Object Model
+* Parsing of HTML and XML
+* Object-oriented representation of web pages
+* Can be controlled by scripting languages like JS
+* Document object in JS
+
+
+
+### Cookies Explained
+
+#### HTTP Cookies
+
+* Aka web cookie, or browser cookie
+* Used for tracking, authentication, etc.
+* Common way to identify whether the user is logged in
+* Have different security measures within the browsers:
+
+| Attribute | Definition                                                  |
+| --------- | ----------------------------------------------------------- |
+| HTTPOnly  | JS cannot access it, unless the browser has vulnerabilities |
+| Secure    | Must be send over SSL / TLS                                 |
+| Expires   | Expiry time of the cookie client-side                       |
+| Domain    | Domain it relates to                                        |
+| Path      | Path within the web application                             |
+
+* Cookie expiry sets a date
+* If the Expiry is not set, or is set to “Session”, the browser will remove the cookie upon closing
+* Cookie expiration must be done both client-side and server-side
+* The browser is responsible for the client-side termination
+* If the server does not terminate the cookie properly, anyone with the cookie value would be able to use it to authenticate as your user
