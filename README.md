@@ -22,4 +22,7 @@
 
 10. #### [LDAP Injection](https://github.com/LOOP115/COMP90074_Notes/blob/main/10-LDAP%20Injection.md)
 
-11. 
+11. #### [Directory Traveral Attack (LFI & RFI)](https://github.com/LOOP115/COMP90074_Notes/blob/main/11-LFI%20%26%20RFI.md)
+
+12. 
+
