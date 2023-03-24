@@ -6,7 +6,7 @@
 * Very deceptive to users
 * Overlays a UI on top of a target web application to perform operations without authorisation
 
-<img src="C:\Users\cjhm0\Desktop\COMP90074_Notes\img\5\1.png" alt="1" style="zoom:80%;" />
+<img src="img\5\1.png" alt="1" style="zoom:80%;" />
 
 ### Remediation
 

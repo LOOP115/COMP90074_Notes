@@ -2,9 +2,9 @@
 
 
 
-![1](C:\Users\cjhm0\Desktop\COMP90074_Notes\img\6\1.png)
+<img src="img\6\1.png" alt="1" style="zoom:80%;" />
 
-![2](C:\Users\cjhm0\Desktop\COMP90074_Notes\img\6\2.png)
+<img src="img\6\2.png" alt="2" style="zoom:80%;" />
 
 https://github.com/EdOverflow/can-i-take-over-xyz
 
