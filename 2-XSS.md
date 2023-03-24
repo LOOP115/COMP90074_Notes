@@ -28,19 +28,19 @@
 
 #### Reflected XSS
 
-![1](img\2\1.png)
+<img src="img\2\1.png" alt="1" style="zoom:80%;" />
 
 
 
 #### Stored XSS
 
-![2](img\2\2.png)
+<img src="img\2\2.png" alt="2" style="zoom:80%;" />
 
 
 
 #### DOM XSS
 
-![3](img\2\3.png)
+<img src="img\2\3.png" alt="3"  />
 
 
 
@@ -63,11 +63,11 @@
 
 ### Cookie/DOM/LocalStorage Stealing
 
-![4](img\2\4.png)
+<img src="img\2\4.png" alt="4" style="zoom:80%;" />
 
 ### XSS AJAX Calls
 
-![5](img\2\5.png)
+<img src="img\2\5.png" alt="5" style="zoom:80%;" />
 
 ### XSS Remediation
 
