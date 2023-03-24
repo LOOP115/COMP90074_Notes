@@ -88,3 +88,10 @@ https://example.com/login.php?language=https://example.com/lang/english.php
 https://example.com/login.php?language=english.php
 ```
 
+#### Mitigations
+
+* Sanitise user input
+* Use a WAF
+* Re-architect software solution to have stricter egress rules
+* This basically means, make sure that the web application can only communicate to applications /
+  websites you want it to communicate with (whitelisting)
