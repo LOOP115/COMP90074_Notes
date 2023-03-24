@@ -1,4 +1,4 @@
-## Directory Traversal Attack
+## Directory Traversal Attack (LFI & RFI)
 
 * Allowing a user to control a file’s name / location, may allow them to traverse to different directories
 * Injection class vulnerability
@@ -6,9 +6,9 @@
 * Can lead to severe cases of information disclosure
 
 * Example:
-  * http://example.com/?download=test.txt
+  * `http://example.com/?download=test.txt`
   *  Shows the contents of test.txt
-  * http://example.com/?download=../../../../etc/passwd
+  * `http://example.com/?download=../../../../etc/passwd`
   * Shows the contents of /etc/passwd
 
 
@@ -48,10 +48,43 @@ Legit example: https://example.com/login.php?language=english.php
   * Output: executes whatever code is within exploit.php
   * Can result in complete takeover of the web sever
 
+#### Attack Process
+
+<img src="img\11\1.png" alt="1" style="zoom:80%;" />
+
+#### Example PHP Upload
+
+```
+<?php
+system(“$_GET[‘cmd’]);
+?>
+```
+
+#### ZIP Attack Process
+
+<img src="img\11\2.png" alt="2" style="zoom:80%;" />
+
+`zip://../../../user/uploads/saj.zip#style`
+
+* #: reference to style.css
 
 
-LFI ZIP Attack example
 
-zip://../../../user/uploads/saj.zip#style
+### Remote File Inclusion (RFI)
 
-#: reference to style.css
+* Exact same thing as LFI, but now fetches remotely
+* Leads to the same vulnerabilities
+* Uses the same protocols
+
+##### Legit:
+
+```
+https://example.com/login.php?language=https://example.com/lang/english.php
+```
+
+##### Malicious:
+
+```
+https://example.com/login.php?language=english.php
+```
+
