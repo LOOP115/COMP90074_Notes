@@ -28,19 +28,19 @@
 
 #### Reflected XSS
 
-![1](C:\Users\cjhm0\Desktop\COMP90074_Notes\img\2\1.png)
+![1](img\2\1.png)
 
 
 
 #### Stored XSS
 
-![2](C:\Users\cjhm0\Desktop\COMP90074_Notes\img\2\2.png)
+![2](img\2\2.png)
 
 
 
 #### DOM XSS
 
-![3](C:\Users\cjhm0\Desktop\COMP90074_Notes\img\2\3.png)
+![3](img\2\3.png)
 
 
 
@@ -63,11 +63,11 @@
 
 ### Cookie/DOM/LocalStorage Stealing
 
-![4](C:\Users\cjhm0\Desktop\COMP90074_Notes\img\2\4.png)
+![4](img\2\4.png)
 
 ### XSS AJAX Calls
 
-![5](C:\Users\cjhm0\Desktop\COMP90074_Notes\img\2\5.png)
+![5](img\2\5.png)
 
 ### XSS Remediation
 
