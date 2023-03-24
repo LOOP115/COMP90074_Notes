@@ -18,4 +18,8 @@
 
 8. #### [Cross-Origin Resource Sharing (CORS)](https://github.com/LOOP115/COMP90074_Notes/blob/main/8-CORS.md)
 
-9. 
+9. #### [Cross-Site Request Forgery (CSRF)](https://github.com/LOOP115/COMP90074_Notes/blob/main/9-CSRF.md)
+
+10. #### [LDAP Injection](https://github.com/LOOP115/COMP90074_Notes/blob/main/10-LAP%20Injection.md)
+
+11. 
