@@ -40,7 +40,7 @@
 
 #### DOM XSS
 
-<img src="img\2\3.png" alt="3"  />
+<img src="img\2\3.png" alt="3" style="zoom:50%;" />
 
 
 
