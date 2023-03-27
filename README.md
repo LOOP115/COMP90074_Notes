@@ -24,5 +24,7 @@
 
 11. #### [Directory Traveral Attack (LFI & RFI)](https://github.com/LOOP115/COMP90074_Notes/blob/main/11-LFI%20%26%20RFI.md)
 
-12. 
+12. #### [Filter Bypasses](https://github.com/LOOP115/COMP90074_Notes/blob/main/12-Filter%20Bypasses.md)
+
+13. 
 
