@@ -26,5 +26,11 @@
 
 12. #### [Filter Bypasses](https://github.com/LOOP115/COMP90074_Notes/blob/main/12-Filter%20Bypasses.md)
 
-13. 
+13. #### [Code Injection](https://github.com/LOOP115/COMP90074_Notes/blob/main/13-Code%20Injection.md)
+
+14. #### [Log Injection](https://github.com/LOOP115/COMP90074_Notes/blob/main/14-Log%20Injection.md)
+
+15. #### [OS Command Injection](https://github.com/LOOP115/COMP90074_Notes/blob/main/15-OS%20CMD%20Injection.md)
+
+16. 
 
