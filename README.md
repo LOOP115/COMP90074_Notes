@@ -34,7 +34,7 @@
 
 16. #### [Server-Side Template Injection](resources/16-SSTI.md)
 
-17. #### [Buffer Overflows](resources/17-Buffer Overflows)
+17. #### [Buffer Overflows](resources/17-Buffer Overflows.md)
 
 18. 
 
