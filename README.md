@@ -36,7 +36,9 @@
 
 17. #### [Buffer Overflows](resources/17-Buffer%20Overflows.md)
 
-18. #### [Format String Attack](resources/18-Format%20String%20Attacks.md)
+18. #### [Format String Attacks](resources/18-Format%20String.md)
 
-19. 
+19. #### [HTTP Splitting](resources/19-HTTP%20Splitting.md)
+
+20. #### [HTTP Desynchronisation Attacks](resources/20-HTTP%20Desync.md)
 
