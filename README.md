@@ -32,5 +32,9 @@
 
 15. #### [OS Command Injection](resources/15-OS%20CMD%20Injection.md)
 
-16. 
+16. #### [Server-Side Template Injection](resources/16-SSTI.md)
+
+17. #### [Buffer Overflows](resources/17-Buffer Overflows)
+
+18. 
 
